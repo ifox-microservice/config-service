@@ -36,3 +36,7 @@ dependencyManagement {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Brixton.SR5"
 	}
 }
+
+task wrapper(type: Wrapper) {
+	gradleVersion = "2.14"
+}
